@@ -1,4 +1,4 @@
-iOS Project 
+Android App Project 
 ========================
 
-Demo
+Demo for User Interface Class
