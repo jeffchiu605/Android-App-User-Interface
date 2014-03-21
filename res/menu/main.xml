@@ -1,0 +1,74 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item
+        android:id="@+id/color"
+        android:showAsAction="ifRoom"
+        android:title="@string/color">
+        <menu>
+            <group android:checkableBehavior="single" >
+                <item
+                    android:id="@+id/red"
+                    android:showAsAction="ifRoom"
+                    android:title="@string/red"/>
+                <item
+                    android:id="@+id/blue"
+                    android:showAsAction="ifRoom"
+                    android:title="@string/blue"/>
+                <item
+                    android:id="@+id/yellow"
+                    android:showAsAction="ifRoom"
+                    android:title="@string/yellow"/>
+                <item
+                    android:id="@+id/black"
+                    android:checked="true"
+                    android:showAsAction="ifRoom"
+                    android:title="@string/black"/>
+            </group>
+        </menu>
+    </item>
+    
+    
+    <item
+        android:id="@+id/stroke"
+        android:showAsAction="ifRoom"
+        android:title="@string/stroke">
+        <menu>
+            <group android:checkableBehavior="single" >
+                <item
+                    android:id="@+id/small"
+                    android:checked="true"
+                    android:showAsAction="ifRoom"
+                    android:title="@string/small"/>
+                <item
+                    android:id="@+id/medium"
+                    android:showAsAction="ifRoom"
+                    android:title="@string/medium"/>
+                <item
+                    android:id="@+id/large"
+                    android:showAsAction="ifRoom"
+                    android:title="@string/large"/>
+            </group>
+        </menu>
+    </item>
+    
+    
+    <item
+        android:id="@+id/eraser"
+        android:checkable="true"
+        android:checked="false"
+        android:showAsAction="always"
+        android:title="Eraser"
+        android:visible="true">
+    </item>
+    
+    
+    <item
+        android:id="@+id/next"
+        android:checkable="true"
+        android:checked="false"
+        android:showAsAction="always"
+        android:title="Next"
+        android:visible="true">
+    </item>
+
+</menu>

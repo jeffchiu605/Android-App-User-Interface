@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Draw Stuff!</string>
+    <string name="welcome">Welcome</string>
+    <string name="menu_settings">Settings</string>
+    <string name="red">Red</string>
+  	<string name="blue">Blue</string>
+    <string name="green">Green</string>
+  	<string name="yellow">Yellow</string>
+    <string name="button_text">Custom Button</string>
+    <string name="eraser">Eraser</string>
+    <string name="clear">Clear</string>
+    <string name="shape">Toggle Shape</string>
+    <string name="color">Color</string>
+    <string name="black">Black</string>
+    <string name="small">Small</string>
+    <string name="medium">Medium</string>
+    <string name="large">Large</string>
+    <string name="stroke">Stroke Width</string>
+        
+</resources>
